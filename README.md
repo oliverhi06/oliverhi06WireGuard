@@ -39,9 +39,11 @@ You will need to change two environment variables:
 	SERVERURL: replace this with your machine's IP
 	PEERS: replace this with the number of that will be using the VPN. In my case, 2
 And, in the volumes field, change the wireguard config directory to wherever the installation is. Here, it's in /opt/wireguard/config
+
 Otherwise, we're good to go. Exit nano and use
 `docker compose up -d`
 If everything works as intended, wireguard should be up and running, (you can check with `docker ps`) and it should have created 2 config files. I used filezilla to scp both of these out. 
+
 On my iPhone I just had to download the wireguard and scan the QR code that was in the config folder. On my PC, you just have to download the wireguard client from [here](https://www.wireguard.com/install/)and import the .conf file that was scp'd out. Other than that, it should just work!
 Here are the screenshots that show my changed IP:
 Before:
