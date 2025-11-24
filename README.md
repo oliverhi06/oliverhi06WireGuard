@@ -45,8 +45,10 @@ If everything works as intended, wireguard should be up and running, (you can ch
 On my iPhone I just had to download the wireguard and scan the QR code that was in the config folder. On my PC, you just have to download the wireguard client from [here](https://www.wireguard.com/install/)and import the .conf file that was scp'd out. Other than that, it should just work!
 Here are the screenshots that show my changed IP:
 before:
+
 ![[Untitled 1.png]]
 ![[Pasted image 20251124112520.png]]
 after:
+
 ![[Untitled-1.png]]
 ![[Pasted image 20251124112739.png]]
