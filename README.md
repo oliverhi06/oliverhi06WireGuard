@@ -44,11 +44,11 @@ Otherwise, we're good to go. Exit nano and use
 If everything works as intended, wireguard should be up and running, (you can check with `docker ps`) and it should have created 2 config files. I used filezilla to scp both of these out. 
 On my iPhone I just had to download the wireguard and scan the QR code that was in the config folder. On my PC, you just have to download the wireguard client from [here](https://www.wireguard.com/install/)and import the .conf file that was scp'd out. Other than that, it should just work!
 Here are the screenshots that show my changed IP:
-before:
+Before:
+<img width="1272" height="774" alt="Pasted image 20251124112520" src="https://github.com/user-attachments/assets/0d64b92f-a439-4f2c-8808-ca4133ae7528" />
+<img width="590" height="1278" alt="Untitled 1" src="https://github.com/user-attachments/assets/1000629a-4eb8-40b3-9674-82ff6abeb1c3" />
 
-![[Untitled 1.png]]
-![[Pasted image 20251124112520.png]]
-after:
+After: 
+<img width="1269" height="817" alt="Pasted image 20251124112739" src="https://github.com/user-attachments/assets/90a4a99c-3751-4854-83ca-bd2b0d4e35ce" />
+<img width="590" height="1278" alt="Untitled-1" src="https://github.com/user-attachments/assets/2f5c506e-5f4e-4941-a2ca-bd4321b3eb12" />
 
-![[Untitled-1.png]]
-![[Pasted image 20251124112739.png]]
