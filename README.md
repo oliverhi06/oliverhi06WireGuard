@@ -28,11 +28,15 @@ The website that you provided in the powerpoint was down when I did this project
 He says to do all this in the /opt directory in root, so go there and make a wireguard directory
 
 `cd /opt`
+
 `mkdir wireguard`
+
 `cd wireguard`
 
 Then, make a new .yaml file and paste the sample file from [here](https://github.com/linuxserver/docker-wireguard)
+
 `nano docker-compose.yaml`
+
 `{Paste}`
 
 You will need to change two environment variables:
@@ -42,6 +46,7 @@ And, in the volumes field, change the wireguard config directory to wherever the
 
 Otherwise, we're good to go. Exit nano and use
 `docker compose up -d`
+
 If everything works as intended, wireguard should be up and running, (you can check with `docker ps`) and it should have created 2 config files. I used filezilla to scp both of these out. 
 
 On my iPhone I just had to download the wireguard and scan the QR code that was in the config folder. On my PC, you just have to download the wireguard client from [here](https://www.wireguard.com/install/)and import the .conf file that was scp'd out. Other than that, it should just work!
